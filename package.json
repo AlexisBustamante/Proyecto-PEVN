@@ -1,0 +1,29 @@
+{
+  "name": "Proyecto-PEVN",
+  "version": "1.0.0",
+  "description": "Proyecto",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "babel": "nodemon app.js --exec babel-node"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cloudinary": "^1.23.0",
+    "connect-history-api-fallback": "^1.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.10",
+    "morgan": "^1.10.0",
+    "pg": "^8.3.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.1",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.0",
+    "nodemon": "^2.0.4"
+  }
+}
